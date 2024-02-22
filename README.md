@@ -39,14 +39,14 @@ Sl.No Column Name Column Description
 
 13 Product ID:- Unique product identifier
 
-14 Category:- Product category 
+14) Category:- Product category 
 
-15 Sub-Category:- Product Sub-Category
-16 Product Name:- Name of the product
-17 Quantity:- Quantity of the product ordered
-18 Discount:- Discount % on the product
-19 Buy Price:- Buying price for each item
-20 Price Per Each:- Selling price for each item 
+15) Sub-Category:- Product Sub-Category
+16) Product Name:- Name of the product
+17) Quantity:- Quantity of the product ordered
+18) Discount:- Discount % on the product
+19) Buy Price:- Buying price for each item
+20) Price Per Each:- Selling price for each item 
 
 
 
