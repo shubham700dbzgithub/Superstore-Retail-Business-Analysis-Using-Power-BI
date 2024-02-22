@@ -18,17 +18,29 @@ with a retail store. It may include the following columns:
 
 Table Description:-
 Sl.No Column Name Column Description
+
 1 Order ID:- Unique Identifier For the Order
+
 2 Order Date:- Date of the order placed
+
 3 Ship Date:- Date of the order shipped
+
 4 Ship Mode:- Priority Mode of Shipping ( Same Day, First Class, Second Class, Standard Class )
+
 5 Customer ID:- Customer Unique Identifier
+
 6 Customer Name:- Name of the customer
+
 7 Segment:- Customer Segment ( Consumer, Corporate, Home Office )
+
 11 Postal Code:- Address from the order was placed
+
 12 Region:- Name of the Region
+
 13 Product ID:- Unique product identifier
+
 14 Category:- Product category 
+
 15 Sub-Category:- Product Sub-Category
 16 Product Name:- Name of the product
 17 Quantity:- Quantity of the product ordered
