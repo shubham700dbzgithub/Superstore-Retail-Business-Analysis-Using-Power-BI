@@ -18,23 +18,23 @@ with a retail store. It may include the following columns:
 
 Table Description:-
 Sl.No Column Name Column Description
-1 Order ID: Unique Identifier For the Order
-2 Order Date: Date of the order placed
-3 Ship Date: Date of the order shipped
-4 Ship Mode: Priority Mode of Shipping ( Same Day, First Class, Second Class, Standard Class )
-5 Customer ID: Customer Unique Identifier
-6 Customer Name: Name of the customer
-7 Segment: Customer Segment ( Consumer, Corporate, Home Office )
-11 Postal Code: Address from the order was placed
-12 Region: Name of the Region
-13 Product ID: Unique product identifier
-14 Category: Product category 
-15 Sub-Category: Product Sub-Category
-16 Product Name: Name of the product
-17 Quantity: Quantity of the product ordered
-18 Discount: Discount % on the product
-19 Buy Price: Buying price for each item
-20 Price Per Each: Selling price for each item 
+1 Order ID:- Unique Identifier For the Order
+2 Order Date:- Date of the order placed
+3 Ship Date:- Date of the order shipped
+4 Ship Mode:- Priority Mode of Shipping ( Same Day, First Class, Second Class, Standard Class )
+5 Customer ID:- Customer Unique Identifier
+6 Customer Name:- Name of the customer
+7 Segment:- Customer Segment ( Consumer, Corporate, Home Office )
+11 Postal Code:- Address from the order was placed
+12 Region:- Name of the Region
+13 Product ID:- Unique product identifier
+14 Category:- Product category 
+15 Sub-Category:- Product Sub-Category
+16 Product Name:- Name of the product
+17 Quantity:- Quantity of the product ordered
+18 Discount:- Discount % on the product
+19 Buy Price:- Buying price for each item
+20 Price Per Each:- Selling price for each item 
 
 
 
@@ -53,6 +53,7 @@ and split the fields and rename the columns appropriately.
 4. Split the address column to City, State, Country and Pincode
 
 Data Modeling:-
+
 1. Tracking sales in the retail business is a weekly task; hence setting up the data model will be crucial for
 this. Convert a flat file into STAR schema for better performance of the analysis. The schema shall have a
 central Fact table, ‘Orders’ and three dimension tables,’Order details’, ‘Customer’ and ‘Product’. Refer to
