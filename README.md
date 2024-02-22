@@ -1,6 +1,7 @@
 # Superstore-Retail-Business-Analysis-Using-Power-BI
 
 Case Study
+
 A superstore retail business is a large, multi-department store that sells various products, including
 groceries, electronics, home goods, clothing, and more. These stores are often designed to be a one-stop
 shop for customers, offering a wide range of products and services under one roof. Superstores are
@@ -11,10 +12,11 @@ provided with part of the sales data that a Business Intelligence Analyst encoun
 dashboard to analyze and interpret the data to help provide valuable insights to the store manager.
 
 Dataset
+
 A Superstore dataset typically includes information about the products, customers, and sales associated
 with a retail store. It may include the following columns:
 
-Table Description:
+Table Description:-
 Sl.No Column Name Column Description
 1 Order ID: Unique Identifier For the Order
 2 Order Date: Date of the order placed
@@ -36,7 +38,7 @@ Sl.No Column Name Column Description
 
 
 
-Problem Statement:
+Problem Statement:-
 Data Extraction, Cleaning,Loading and Transformation
 
 1. Desk representatives at the stores are not tech savvy hence they directly share the data in the single
@@ -50,7 +52,7 @@ and split the fields and rename the columns appropriately.
 
 4. Split the address column to City, State, Country and Pincode
 
-Data Modeling:
+Data Modeling:-
 1. Tracking sales in the retail business is a weekly task; hence setting up the data model will be crucial for
 this. Convert a flat file into STAR schema for better performance of the analysis. The schema shall have a
 central Fact table, ‘Orders’ and three dimension tables,’Order details’, ‘Customer’ and ‘Product’. Refer to
@@ -61,7 +63,7 @@ the table below for creating appropriate columns in each table.
 3. Once the tables are created, ensure one- to - many relationships are created between dimensions and
 fact table.
 
-Column Name Type
+Column Name Type:-
 
 Ship Mode Dimension(Order Details)
 Postal Code Dimension(Order Details)
@@ -75,7 +77,7 @@ SuPb-Category Dimension (Product)
 rev Complete & Continue 
 
 
-Data Analysis:
+Data Analysis:-
 Furthermore, to grow the footholds in the store and achieve an ambitious sales target, the store manager
 wants to track and visualize the following metrics.
 
